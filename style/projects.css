@@ -1,0 +1,19 @@
+.slideshow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+#projectsTitle{
+    font-size: 4rem;
+}
+
+.slideshow iframe{
+    width: 80%;
+    height: 80%;
+}
