@@ -9,6 +9,7 @@ body {
 body {
   background-color: black;
 }
+
 body::after {
   content: "";
   position: absolute;
@@ -43,10 +44,10 @@ body::after {
   color: rgb(171, 171, 171);
 }
 
-
-.navbar-left a{
+.navbar-left a {
   padding: 1rem;
 }
+
 .navbar-right a {
   padding: 1rem;
 }
@@ -69,7 +70,7 @@ body::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 60%;
   height: 40%;
   color: rgb(226, 226, 226);
 }
@@ -80,6 +81,7 @@ body::after {
   font-weight: 300;
   margin-bottom: 0%;
 }
+
 .left-container h2 {
   font-size: 1.5rem;
   font-weight: 300;
@@ -89,7 +91,7 @@ body::after {
 #btn-disc {
   background-color: transparent;
   color: white;
-  border: 1px solid white;  
+  border: 1px solid white;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 4px;
   font-size: 1.4rem;
@@ -98,13 +100,12 @@ body::after {
 #btn-disc:hover {
   transition: 0.2s ease;
   color: black;
-
   background-color: white;
   cursor: pointer;
 }
 
 .right-image {
-bottom: 0;
+  bottom: 0;
   right: 0;
   height: 50%;
   width: 50%;
@@ -126,3 +127,5 @@ bottom: 0;
 .about-container h2 {
   color: white;
 }
+
+/*# sourceMappingURL=main-style.css.map */
