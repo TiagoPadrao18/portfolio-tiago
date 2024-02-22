@@ -9,7 +9,7 @@
 }
 
 #title{
-font-size: 4rem;
+font-size: 2rem;
 scroll-behavior: smooth;
 }
 
@@ -19,13 +19,12 @@ scroll-behavior: smooth;
     width: 100%;
     display: flex;
     justify-content: center;
-    column-gap: 6rem;
 }
 
 
 .card{
     height: 80%;
-    width: 60%;
+    width: 80%;
     border-radius: 1rem;
     background-color: black;
 
@@ -35,6 +34,6 @@ scroll-behavior: smooth;
 .cardText{
     color: white;
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
